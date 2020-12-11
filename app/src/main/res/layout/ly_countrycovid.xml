@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblCountryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/lblTotalConfirmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TotalConfirmed"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/lblTotalDeaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TotalDeaths"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/lblTotalRecovered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TotalRecovered"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/lblFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="130dp" />
+</LinearLayout>
